@@ -30,4 +30,9 @@ function imc() {
         resultadoo.textContent = `Preencha todos os campos!`
     }
 
+
 }
+
+
+
+///
