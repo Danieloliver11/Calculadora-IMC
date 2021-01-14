@@ -11,21 +11,29 @@ function imc() {
 
     if (nome !== "" && altura !== "" && peso !== "") {
         const resull = peso / (altura * altura)
-        if (resull < 18.5) {
-            classifica = 'você esta ABAIXO do peso ideal!'
-        } else if (resull < 24.9) {
-            classifica = 'você esta no peso IDEAL!'
-        } else if (resull < 29.9) {
-            classifica = 'você esta com SOBREPESO! (grau I)'
-        } else if (resull < 39.9) {
-            classifica = 'você esta com OBESIDADE! (grau II)'
-        } else if (resull < 40.0) {
-            classifica = 'você esta com OBESIDADE GRAVE! (grau II)'
-        }
-        resultado.textContent = `Olá ${nome} seu IMC é: ${resull.toFixed(1)}, e ${classifica} `
 
-    } else {
-        resultadoo.textContent = `Preencha todos os campos!`
+
+
+        if (esull < 16) { 'você esta com Magreza grau III!' }
+    } else if (ensull < 16.9) {
+        'você esta com Magreza grau II!'
+    } else if (ensull < 18.4) {
+        'você esta com Magreza grau I!'
+    } else if (esull < 18.5) {
+        classifica = 'você esta ABAIXO do peso ideal!'
+    } else if (resull < 24.9) {
+        classifica = 'você esta no peso IDEAL!'
+    } else if (resull < 29.9) {
+        classifica = 'você esta com SOBREPESO! (grau I)'
+    } else if (resull < 39.9) {
+        classifica = 'você esta com OBESIDADE! (grau II)'
+    } else if (resull < 40.0) {
+        classifica = 'você esta com OBESIDADE GRAVE! (grau II)'
     }
+    resultado.textContent = `Olá ${nome} seu IMC é: ${resull.toFixed(1)}, e ${classifica} `
+
+} else {
+    resultadoo.textContent = `Preencha todos os campos!`
+}
 
 }
