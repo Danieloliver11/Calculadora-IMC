@@ -1,0 +1,96 @@
+        @charset "UTF-8";
+        body {
+            background-image: url(imagem/saude-academia-20160726-05.jpg);
+            /*cobre(cover) o background com a imagem*/
+            background-size: cover;
+        }
+        
+        div#interface {
+            top: 100px;
+            background-color: rgb(238, 163, 23);
+            width: 437px;
+            text-align: center;
+            margin: auto auto auto auto;
+            border: 1px solid rgba(0, 0, 0, 0.932);
+            padding: 0px 0px 165px 0px;
+            box-shadow: -3px 5px 5px rgba(0, 0, 0, 0.589);
+            border-radius: 14px
+        }
+        
+        header#cabecalho {
+            border-bottom: 5px solid black;
+        }
+        
+        div#entradas {
+            padding: 3px 0px 0px 0px;
+            margin: 15px 15px -100px 80px
+        }
+        
+        div.nome {
+            margin: 0px 0px 20px 0px;
+            padding: 0px 7px 0px 0px
+        }
+        
+        div.nome input {
+            height: 47px;
+            border: 0px solid;
+            border-radius: 14px
+        }
+        
+        div.altura {
+            margin: 0px 0px 20px 0px;
+            padding: 0px 23px 0px 0px
+        }
+        
+        div.altura label {
+            padding: 0px 0px 0px 0px;
+            margin: 0px
+        }
+        
+        div.altura input {
+            height: 47px;
+            border: 0px solid;
+            border-radius: 14px
+        }
+        
+        div.peso {
+            margin: 0px 0px 20px 0px;
+            height: 80px;
+        }
+        
+        div.peso input {
+            height: 47px;
+            border-radius: 14px;
+            border: 0px solid
+        }
+        /* botão*/
+        /*div.botao {
+            border: 2px solid black;
+            background-color: black;
+        }*/
+        
+        div.botao button {
+            background-color: black;
+            padding: 15px 115px 15px 129px;
+            border: 1px solid black;
+            box-shadow: -20px 10px 30px rgba(12, 2, 2, 0.582);
+            border-radius: 19px;
+            margin: 0px 30px 0px 0px;
+        }
+        
+        div.botao button strong {
+            color: rgb(238, 163, 23);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        /*resultado*/
+        /* formatação da tela de resultado*/
+        
+        div#resultado {
+            color: rgb(238, 163, 23);
+            padding: auto;
+            height: 100px;
+            margin: 20px 30px 0px 0px;
+            background-color: black;
+            box-shadow: -5px 5px 10px rgba(12, 2, 2, 0.486);
+            border-radius: 14px;
+        } ///
