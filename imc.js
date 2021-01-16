@@ -22,7 +22,7 @@ function imc() {
         } else if (resull < 39.9) {
             classifica = 'você esta com OBESIDADE! (grau II)'
         } else if (resull > 40.0) {
-            classifica = 'você esta com OBESIDADE GRAVE! (grau II)'
+            classifica = 'você esta com OBESIDADE GRAVE! (grau III)'
         }
         resultado.textContent = `Olá ${nome} seu IMC é: ${resull.toFixed(1)}, e ${classifica} `
 
